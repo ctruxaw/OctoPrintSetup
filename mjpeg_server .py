@@ -2,7 +2,7 @@
 
 # Mostly copied from https://picamera.readthedocs.io/en/release-1.13/recipes2.html
 # Run this script, then point a web browser at http:<this-ip-address>:8080
-# Note: needs simplejpeg to be installed (pip3 install simplejpeg).
+# Note: needs Picamera2 to be installed
 
 import io
 import logging
