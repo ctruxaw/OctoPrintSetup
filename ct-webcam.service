@@ -1,0 +1,11 @@
+[Unit]
+Description=Service for mjpeg_server.py
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python /home/pi/scripts/mjpeg_server.py
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
